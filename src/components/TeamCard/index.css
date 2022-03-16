@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.list-items {
+  width: 50%;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  height: 85%;
+  border-radius: 12px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff33;
+  text-decoration: none;
+  padding-left: 7px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 7px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .link {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+  }
+}
+
+.ipl-img {
+  height: 45px;
+  width: 45px;
+}
+
+@media screen and (min-width: 786px) {
+  .ipl-img {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .ipl-img {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.team-heading {
+  font-size: 12px;
+  color: #fff;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  margin-left: 5px;
+}
+@media screen and (min-width: 786px) {
+  .team-heading {
+    font-size: 32px;
+    margin-left: 16px;
+  }
+}
